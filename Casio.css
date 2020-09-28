@@ -1,0 +1,213 @@
+{
+    margin: 0;
+    padding: 0;
+}
+#square {
+    background: #f90;
+    height: 1000vh;
+    width: 66vh;
+    color: #000;
+}
+.rectangle{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 320px;
+    height: 30px;
+    top: 40vh;
+    border: 2px solid black;
+}
+.cube {
+    position: absolute;
+    top: 2px;
+    width: 150px;
+    height: 26px;
+    background: #000;
+    -webkit-animation: loading 2s infinite;
+            animation: loading 2s infinite;
+}
+#square p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top:50vh;
+    text-align: center;
+    font-family: italic ;
+    font-size: 24px;
+}
+@-webkit-keyframes loading{
+    0% {
+        left: 9px;
+    }
+    7% {
+        right: 240px;
+    }
+    100% {
+        right:9px;
+    }
+}
+@keyframes loading{
+    0% {
+        left: 9px;
+    }
+    7% {
+        right: 240px;
+    }
+    100% {
+        right:9px;
+    }
+}
+body {
+    margin:0;
+    padding:0;
+    background-color:black;
+    color:white;;
+}
+.goldbor h1{
+    font-size:15px;
+    color:#fff; background-image:url("https://thumbs.dreamstime.com/b/close-up-colorful-gold-yellow-orange-wall-patterns-texture-background-colorful-gold-yellow-orange-wall-patterns-texture-133858439.jpg");
+   -webkit-text-fill-color:transparent;
+   -webkit-background-clip:text;
+   text-align:center;
+   animation:animate 15s linear infinite;
+}
+@keyframes animate{
+  0%{
+      background-position:left 5px top 200px;
+  } 
+  40%{
+      background-position:left 8px top 20px;
+  } 
+}
+.darksky h4{
+    font-size:15px;
+    color:#fff; background-image:url("https://st2.depositphotos.com/1888461/10149/i/950/depositphotos_101492330-stock-photo-gray-sky-background-with-white.jpg");
+   -webkit-text-fill-color:transparent;
+   -webkit-background-clip:text;
+   text-align:center;
+   animation:animate 15s linear infinite;
+}
+@keyframes animate{
+  0%{
+      background-position:left 1px top 30px;
+  } 
+  40%{
+      background-position:left 1px top 40px;
+  } 
+}
+h3
+{
+  font-family:cursive;
+  font-size:25px;
+  color:#F99990;
+}
+h2
+{
+    font-family:cursive;
+    color:#Ffffff;       background-image:url("https://www.dropbox.com/s/33z4mmk9dftjbdv/giphy.gif?dl=1");
+}
+body {
+    margin:0;
+    font-weight:bold;
+}
+*{
+    scroll-behavior:smooth;
+}
+#color{
+    height:84px;
+    background-size:cover;
+    color:white;
+    font-size:18px;
+    font-family:cursive;
+    text-shadow:0 0 29px purple,
+                0 0 28px purple,
+                0 0 9px #800080,
+                0 0 9px #800080,
+                0 0 3px purple,
+                0 0 3px purple;
+    display:flex;
+    box-shadow:0 1 0px 0 black;
+}
+.dsgn
+{
+  color:white;
+  animation-name: example;
+  animation-duration:35s;
+  font-size:15px;
+}
+@keyframes example {
+  0%   {
+  color: #F99945;
+  }
+  25%  {
+  color: #ffee60;
+  }
+  50%  {
+  color: #FFB6C1;
+  }
+  100% {
+  color: #b19cd9;
+  }
+}
+jk
+{
+     font-family:cursive;
+     font-size:18px;
+     color:#c396c9;
+     margin-left:255px;
+}
+div-2 
+{
+ display: table; 
+ margin: 0 auto; 
+ }
+ img {
+  border: 1px solid #000;
+  border-radius: 5px;
+  border-color:black;;
+  padding: 5px;
+  width: 344px;
+}
+.cir1{
+    height:70px;;
+    width:359px;
+    border-radius:38px;
+    background-color:#F99945;
+    position:absolute;
+    transform:rotatey(28deg);
+    top:383px;
+    left:1px;
+}
+.cir2{
+    height:67px;;
+    width:359px;
+    border-radius:38px;
+    background-color:#ffee60;
+    position:absolute;
+    transform:rotatey(28deg);
+    top:900px;
+    left:1px;
+}
+.cir3{
+    height:67px;;
+    width:359px;
+    border-radius:38px;
+    background-color:#FFB6C1;
+    position:absolute;
+    transform:rotatey(28deg);
+    top:1422px;
+    left:1px;
+}
+.dsg{
+    font-family:sans-serif ;
+    text-align:center ;
+    margin-top:180px;
+    font-size:40px;
+    color:transparent;
+    background-image:url(" https://www.dropbox.com/s/33z4mmk9dftjbdv/giphy.gif?dl=1");
+    background-position:center;
+    -webkit-background-clip:text;
+}
+
